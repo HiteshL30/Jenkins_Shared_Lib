@@ -1,3 +1,3 @@
-def call(String GitUrl, String GitBranch){
-  git url: "${GitUrl}", branch: "${GitBranch}"
+def call(String Url, String Branch){
+  git url: "${Url}", branch: "${Branch}"
 }
